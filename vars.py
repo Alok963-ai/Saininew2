@@ -3,6 +3,7 @@ it'#kaka
 import os
 from os import environ
 
+token_cp = ''
 API_ID = int(environ.get("API_ID", "20288951"))
 API_HASH = environ.get("API_HASH", "e8cb5fb7a475b5f5eb3b0ef0e6ca03a8")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
